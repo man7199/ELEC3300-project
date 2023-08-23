@@ -1,0 +1,12 @@
+projecttest\bsp_esp8266.o: ..\Src\bsp_esp8266.c
+projecttest\bsp_esp8266.o: ..\Src\bsp_esp8266.h
+projecttest\bsp_esp8266.o: D:\keil\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h
+projecttest\bsp_esp8266.o: .\RTE\_projecttest\RTE_Components.h
+projecttest\bsp_esp8266.o: ../Drivers/CMSIS/Include/core_cm3.h
+projecttest\bsp_esp8266.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+projecttest\bsp_esp8266.o: ../Drivers/CMSIS/Include/cmsis_version.h
+projecttest\bsp_esp8266.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+projecttest\bsp_esp8266.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+projecttest\bsp_esp8266.o: D:\keil\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h
+projecttest\bsp_esp8266.o: ..\Src\common.h
+projecttest\bsp_esp8266.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h

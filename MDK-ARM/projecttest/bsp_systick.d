@@ -1,0 +1,9 @@
+projecttest\bsp_systick.o: ..\Src\bsp_SysTick.c
+projecttest\bsp_systick.o: ..\Src\bsp_SysTick.h
+projecttest\bsp_systick.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
+projecttest\bsp_systick.o: ../Drivers/CMSIS/Include/core_cm3.h
+projecttest\bsp_systick.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+projecttest\bsp_systick.o: ../Drivers/CMSIS/Include/cmsis_version.h
+projecttest\bsp_systick.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+projecttest\bsp_systick.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+projecttest\bsp_systick.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h

@@ -1,0 +1,9 @@
+projecttest\core_delay.o: ..\Src\core_delay.c
+projecttest\core_delay.o: ..\Src\./dwt_delay/core_delay.h
+projecttest\core_delay.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
+projecttest\core_delay.o: ../Drivers/CMSIS/Include/core_cm3.h
+projecttest\core_delay.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+projecttest\core_delay.o: ../Drivers/CMSIS/Include/cmsis_version.h
+projecttest\core_delay.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+projecttest\core_delay.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+projecttest\core_delay.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h

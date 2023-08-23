@@ -1,0 +1,125 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Man Hui, hkust, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.23
+Toolchain Path:  D:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      CMSIS_AGDI.dll V1.27.5.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+D:\download\ust lesson\sem3\elec3300\projecttest\MDK-ARM\projecttest.uvprojx
+Project File Date:  05/09/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\keil\ARM\ARMCC\Bin'
+Rebuild target 'projecttest'
+assembling startup_stm32f103xe.s...
+compiling lcdtp.c...
+compiling bsp_usart.c...
+..\Src\bsp_usart.h(75): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Src\bsp_usart.c(9): warning:  #177-D: variable "i"  was declared but never referenced
+  	  int i ;
+..\Src\bsp_usart.c(153): warning:  #1-D: last line of file ends without a newline
+  }
+..\Src\bsp_usart.c: 3 warnings, 0 errors
+compiling esp8266.c...
+..\Src\esp8266.h(142): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Src\bsp_usart.h(75): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Src\esp8266.c(172): warning:  #177-D: variable "uc"  was declared but never referenced
+  	char uc;	
+..\Src\esp8266.c(173): warning:  #177-D: variable "pCh"  was declared but never referenced
+  	char * pCh;	
+..\Src\esp8266.c(299): warning:  #223-D: function "ESP_Rxbuf_Init" declared implicitly
+  	ESP_Rxbuf_Init();
+..\Src\esp8266.c(317): warning:  #223-D: function "ESP_Rxbuf_Init" declared implicitly
+  	ESP_Rxbuf_Init();
+..\Src\esp8266.c(398): warning:  #1-D: last line of file ends without a newline
+   
+..\Src\esp8266.c: 7 warnings, 0 errors
+compiling xpt2046.c...
+..\Src\xpt2046.c(552): warning:  #940-D: missing return statement at end of non-void function "Main_touchkey" 
+  }
+..\Src\xpt2046.c(839): warning:  #1-D: last line of file ends without a newline
+  		
+..\Src\xpt2046.c: 2 warnings, 0 errors
+compiling main.c...
+../Src/esp8266.h(142): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/bsp_usart.h(75): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/main.c(199): warning:  #177-D: variable "count"  was declared but never referenced
+  			int count=0;
+../Src/main.c(528): warning:  #550-D: variable "x"  was set but never used
+  			int x=0;
+../Src/main.c: 4 warnings, 0 errors
+compiling i2c.c...
+compiling stm32f1xx_it.c...
+../Src/bsp_usart.h(75): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/esp8266.h(142): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/stm32f1xx_it.c: 2 warnings, 0 errors
+compiling fsmc.c...
+compiling tim.c...
+compiling gpio.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_ll_fsmc.c...
+compiling stm32f1xx_hal_uart.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_sram.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_i2c.c...
+compiling stm32f1xx_hal_tim.c...
+linking...
+Program Size: Code=22308 RO-data=2432 RW-data=120 ZI-data=2424  
+FromELF: creating hex file...
+"projecttest\projecttest.axf" - 0 Error(s), 18 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM::CMSIS:CORE:5.5.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_projecttest
+  D:\keil\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  D:\keil\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+Build Time Elapsed:  00:00:13
+</pre>
+</body>
+</html>
